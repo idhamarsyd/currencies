@@ -46,7 +46,6 @@ const App = () => {
   return (
     <div className="App">
       <h1>Assignment 2 Currencies</h1>
-      <ul></ul>
       <table>
         <thead>
           <tr>
