@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #f3f3f3;
+  background-color: #f08811;
+  color: white;
 }
 
 .App {
@@ -20,10 +21,24 @@
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
-  height: 50vh;
+  height: 72vh;
 }
 
 .table-container {
   /* border: 1px solid black; */
   margin: auto;
+}
+
+.header {
+  /* color: #212121; */
+}
+
+.table-header {
+  /* border: 1px solid black; */
+  padding: 16px 48px;
+}
+
+.table-data {
+  /* border: 1px solid black; */
+  padding: 8px;
 }
