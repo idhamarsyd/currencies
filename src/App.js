@@ -73,8 +73,10 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Assignment 2 Currencies</h1>
-      {loadTable()}
+      <div className="table-section">
+        <h1>Currencies</h1>
+        {loadTable()}
+      </div>
     </div>
   );
 };
